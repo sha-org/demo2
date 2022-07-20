@@ -7,7 +7,7 @@ pipeline {
                 branch 'feature'
             }
             steps {
-                echo 'from feature branch......'
+                echo 'from feature branch...,,...'
             }
         }
         stage('QA') {
